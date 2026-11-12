@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nedi Coralic – Schreinerpraktiker EBA</title>
+  <meta name="description" content="Lebenslauf von Nedi Coralic – Schreinerpraktiker EBA mit Erfahrung in Innenausbau, Elementmontage, Fensterbau und Produktion.">
+  <meta name="theme-color" content="#14110f">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2314110f'/%3E%3Ctext x='32' y='43' font-family='Georgia,serif' font-size='30' font-weight='700' text-anchor='middle' fill='%23e0a458'%3ENC%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..600&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <canvas id="scene" aria-hidden="true"></canvas>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="progress" aria-hidden="true"><span id="progressBar"></span></div>
+
+  <header class="nav" id="nav">
+    <a class="logo" href="#top" aria-label="Zum Seitenanfang">N<span>C</span></a>
+    <nav class="nav-links" id="navLinks" aria-label="Hauptnavigation">
+      <a href="#profil">Profil</a>
+      <a href="#erfahrung">Erfahrung</a>
+      <a href="#ausbildung">Ausbildung</a>
+      <a href="#skills">Skills</a>
+      <a class="nav-cta" href="#kontakt">Kontakt</a>
+    </nav>
+    <button class="burger" id="burger" aria-label="Menü öffnen" aria-expanded="false" aria-controls="navLinks"><span></span><span></span></button>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-inner">
+        <p class="eyebrow"><span class="dot"></span>Schreinerpraktiker EBA · Augsburg</p>
+        <h1 class="hero-title">
+          <span class="line"><span>Nedi</span></span>
+          <span class="line"><span><em>Coralic</em></span></span>
+        </h1>
+        <p class="hero-lead">Handwerk mit Präzision – vom Innenausbau über Elementmontage bis zum Fensterbau. Erfahrung aus Betrieben in der Ostschweiz, Zürich und Graubünden.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#kontakt">Kontakt aufnehmen</a>
+          <a class="btn btn-ghost" href="#erfahrung">Werdegang ansehen <span aria-hidden="true">↓</span></a>
+        </div>
+      </div>
+      <a class="scroll-hint" href="#profil" aria-label="Weiter scrollen"><span></span>Scrollen</a>
+    </section>
+
+    <!-- PROFIL -->
+    <section class="section" id="profil">
+      <div class="container">
+        <header class="section-head reveal">
+          <span class="section-num">01</span>
+          <h2>Profil</h2>
+        </header>
+        <div class="profile">
+          <figure class="portrait reveal">
+            <img src="assets/nedi.png" alt="Porträt von Nedi Coralic" width="367" height="367">
+          </figure>
+          <div class="profile-text reveal">
+            <p class="big">Gelernter <strong>Schreinerpraktiker EBA</strong> mit mehreren Jahren Praxis in Werkstatt, Produktion und auf Montage.</p>
+            <p>Ob Innenausbau, Elementmontage bei Stadler Rail, Fenster- und Metallmontage oder Arbeit an der Hobelbank – ich bin es gewohnt, mich schnell in neue Betriebe und Aufgaben einzuarbeiten. Neben dem Handwerk bringe ich EDV-Kenntnisse sowie Interesse an Webdesign und Musikproduktion mit.</p>
+            <ul class="facts">
+              <li><span>Wohnort</span>Augsburg, Deutschland</li>
+              <li><span>Geburtsort</span>Cazin, Bosnien</li>
+              <li><span>Staatsangehörigkeit</span>Kroatischer Reisepass</li>
+            </ul>
+          </div>
+        </div>
+        <div class="stats">
+          <div class="stat reveal"><b data-count="7">0</b><span>Berufliche Stationen</span></div>
+          <div class="stat reveal"><b data-count="4">0</b><span>Sprachen</span></div>
+          <div class="stat reveal"><b data-count="2010" data-plain>0</b><span>Abschluss EBA</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ERFAHRUNG -->
+    <section class="section" id="erfahrung">
+      <div class="container">
+        <header class="section-head reveal">
+          <span class="section-num">02</span>
+          <h2>Berufserfahrung</h2>
+        </header>
+        <ol class="timeline" id="timeline">
+          <li class="job reveal">
+            <div class="job-meta"><time>Juli 2024 – Februar 2026</time><span>St. Gallen</span></div>
+            <div class="job-card">
+              <h3>Schreinerpraktiker</h3>
+              <p class="company">Saxatech AG</p>
+              <ul class="tags"><li>Produktionsaufgaben</li><li>Innenausbau</li></ul>
+            </div>
+          </li>
+          <li class="job reveal">
+            <div class="job-meta"><time>Januar 2024 – Juni 2024</time><span>St. Gallen</span></div>
+            <div class="job-card">
+              <h3>Schreiner</h3>
+              <p class="company">Leiharbeit</p>
+              <ul class="tags"><li>Verschiedene Schreinerarbeiten</li></ul>
+            </div>
+          </li>
+          <li class="job reveal">
+            <div class="job-meta"><time>Februar 2023 – April 2023</time><span>St. Margrethen</span></div>
+            <div class="job-card">
+              <h3>Schreinerpraktiker</h3>
+              <p class="company">Stadler Rail AG</p>
+              <ul class="tags"><li>Elementmontage</li><li>Produktionsaufgaben</li></ul>
+            </div>
+          </li>
+          <li class="job reveal">
+            <div class="job-meta"><time>Juni 2021 – Februar 2022</time><span>Davos GR</span></div>
+            <div class="job-card">
+              <h3>Schreinerpraktiker</h3>
+              <p class="company">Künzli AG</p>
+              <ul class="tags"><li>Verputzarbeiten</li></ul>
+            </div>
+          </li>
+          <li class="job reveal">
+            <div class="job-meta"><time>Juni 2021 – November 2021</time><span>Zürich</span></div>
+            <div class="job-card">
+              <h3>Bankschreiner</h3>
+              <p class="company">Excellent GmbH</p>
+              <ul class="tags"><li>Bankschreiner</li><li>Innenausbau</li></ul>
+            </div>
+          </li>
+          <li class="job reveal">
+            <div class="job-meta"><time>September 2020 – Februar 2021</time><span>Sevelen SG</span></div>
+            <div class="job-card">
+              <h3>Fensterbauer</h3>
+              <p class="company">Fensterbroker GmbH</p>
+              <ul class="tags"><li>Montage von Fenstern</li><li>Montage Metallarbeiten</li></ul>
+            </div>
+          </li>
+          <li class="job reveal">
+            <div class="job-meta"><time>November 2016 – April 2019</time><span>St. Gallen</span></div>
+            <div class="job-card">
+              <h3>Diverse Temporäreinsätze</h3>
+              <p class="company">Temporärarbeit</p>
+              <ul class="tags"><li>Schreiner</li><li>Produktionsmitarbeiter</li></ul>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- AUSBILDUNG -->
+    <section class="section" id="ausbildung">
+      <div class="container">
+        <header class="section-head reveal">
+          <span class="section-num">03</span>
+          <h2>Ausbildung</h2>
+        </header>
+        <div class="edu">
+          <article class="card reveal">
+            <span class="card-years">2008 – 2010</span>
+            <h3>Schreinerpraktiker EBA</h3>
+            <p>Berufsschule · Flawil</p>
+            <p class="muted">Juni 2008 – Juni 2010</p>
+          </article>
+          <article class="card reveal">
+            <span class="card-years">2005 – 2008</span>
+            <h3>Sekundarschule</h3>
+            <p>Buchs SG</p>
+            <p class="muted">Juni 2005 – Juni 2008</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section" id="skills">
+      <div class="container">
+        <header class="section-head reveal">
+          <span class="section-num">04</span>
+          <h2>Sprachen &amp; Skills</h2>
+        </header>
+        <div class="skills">
+          <div class="card reveal">
+            <h3 class="card-title">Sprachen</h3>
+            <ul class="bars">
+              <li><span>Deutsch</span><i style="--v:100%"></i></li>
+              <li><span>Englisch</span><i style="--v:100%"></i></li>
+              <li><span>Französisch</span><i style="--v:60%"></i></li>
+              <li><span>Serbokroatisch</span><i style="--v:100%"></i></li>
+            </ul>
+          </div>
+          <div class="card reveal">
+            <h3 class="card-title">Skills</h3>
+            <ul class="bars">
+              <li><span>EDV-Kenntnisse</span><i style="--v:100%"></i></li>
+              <li><span>Webdesign</span><i style="--v:100%"></i></li>
+              <li><span>Musikproduktion</span><i style="--v:100%"></i></li>
+            </ul>
+            <h3 class="card-title spaced">Handwerk</h3>
+            <ul class="chips">
+              <li>Innenausbau</li><li>Elementmontage</li><li>Fenstermontage</li><li>Metallarbeiten</li><li>Bankschreinerei</li><li>Produktion</li><li>Verputzarbeiten</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- KONTAKT -->
+    <section class="section contact" id="kontakt">
+      <div class="container">
+        <header class="section-head reveal">
+          <span class="section-num">05</span>
+          <h2>Kontakt</h2>
+        </header>
+        <p class="contact-lead reveal">Lassen Sie uns <em>etwas bauen.</em></p>
+        <div class="contact-grid">
+          <a class="contact-item reveal" href="mailto:nediaw14@gmail.com">
+            <span>E-Mail</span><b>nediaw14@gmail.com</b>
+          </a>
+          <a class="contact-item reveal" href="tel:+4917671337129">
+            <span>Telefon</span><b>+49 176 71337129</b>
+          </a>
+          <div class="contact-item reveal">
+            <span>Standort</span><b>86165 Augsburg</b>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>© <span id="year">2026</span> Nedi Coralic</span>
+    <a href="#top">Nach oben ↑</a>
+  </footer>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
